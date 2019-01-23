@@ -1,0 +1,416 @@
+/* General */
+h1 {
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  margin: 0;
+}
+
+h2 {
+  font-size: 46px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+.thirty-six {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 0;
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+}
+
+p.subheader {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.nav a, .nav button {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.red-bar {
+  width: 15%;
+  height: 3px;
+  background-color: #E25255;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/* Nav Bar */
+.nav {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 100;
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  border-bottom: 3px solid #0070BC;
+}
+
+.nav div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav .left img {
+  display: inline-block;
+  margin-right: 0%;
+  vertical-align: middle;
+  margin-top: 7px;
+}
+
+.nav a {
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+  margin: 0 30px;
+}
+
+.nav a.nav-link {
+  color: #6A6A6A;
+}
+
+.nav a.nav-link:hover {
+  color: #000;
+}
+
+.nav a.launch {
+  color: white;
+  background-color: #FF8083;
+  border-radius: 30px;
+  padding: 10px 15px;
+}
+
+.nav a.launch:hover {
+  background-color: #ff4d51;
+}
+
+/* Hero */
+.hero {
+  height: 500px;
+  width: 100%;
+  background-color: #0070BC;
+  position: relative;
+  margin-top: 79px;
+}
+
+.hero .text {
+  width: 50%;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero .text .red-underline {
+  width: 100px;
+  height: 3px;
+  background-color: #E25255;
+  margin: 5px auto;
+}
+
+.hero .text h2 {
+  font-weight: 800;
+}
+
+.hero .text .subheader {
+  margin-top: 35px;
+}
+
+/* Signup */
+.signup {
+  background-color: #E0EDF3;
+  text-align: center;
+  padding: 80px;
+}
+
+.signup h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.signup form {
+  margin-top: 25px;
+}
+
+.signup form input[type='text'] {
+  width: 32%;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.signup form input[type='submit'] {
+  font-size: 28px;
+  padding: 5px 65px;
+  border: none;
+  box-sizing: content-box;
+  font-weight: 900;
+  color: #fff;
+  background-color: #FF8083;
+  border-radius: 5px;
+}
+
+.signup form input[type='submit']:hover {
+  cursor: pointer;
+  background-color: #ff4d51;
+}
+
+/* Top Line */
+.topline {
+  padding: 30px 90px 60px 90px;
+}
+
+.topline .item {
+  display: inline-block;
+  width: 30%;
+  box-sizing: border-box;
+  margin: 0 1.5%;
+  padding: 30px 10px;
+  vertical-align: top;
+  min-height: 500px;
+  text-align: center;
+}
+
+.topline .item .icon {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  margin: 0 auto
+}
+
+.topline .item .grey-bar {
+  width: 50px;
+  height: 3px;
+  background-color: #D8D8D8;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.topline .item .text {
+  margin-top: 15px;
+  padding: 0px 15px;
+}
+
+.topline .item .text h3 {
+  margin-bottom: 10px;
+}
+
+/* The Problem */
+.problem {
+  background-color: #E0EDF3;
+  text-align: center;
+  padding: 80px;
+}
+
+.problem .text ul {
+  list-style: none;
+  text-align: left;
+  width: 60%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.problem .text ul li {
+  margin: 15px 0;
+}
+
+.problem .text ul li img, .problem .text ul li span {
+  vertical-align: bottom;
+}
+
+.problem .text .list {
+  text-align: left;
+  margin: 0 auto;
+}
+
+.problem .text .list .item {
+  display: inline-block;
+}
+
+.problem .text .list .item img, .problem .text .list .item p {
+  display: inline-block;
+}
+
+/* Features */
+.features {
+  padding: 70px 7%;
+  text-align: center;
+}
+
+.features .feature-block {
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  position: relative;
+}
+
+.features .feature-block:after {
+  content:'';
+  width: 16%;
+  height: 3px;
+  background-color: lightgrey;
+  position: absolute;
+  bottom: -3px;
+  left: 42%;
+}
+
+.features .feature-block:nth-of-type(even) {
+  flex-direction: row;
+}
+
+.features .feature-block:nth-of-type(even) .text {
+  margin-left: 3%;
+}
+
+.features .feature-block:nth-of-type(odd) {
+  flex-direction: row-reverse;
+}
+
+.features .feature-block:nth-of-type(odd) .text {
+  margin-right: 3%;
+}
+
+.features .feature-block:last-child:after {
+  display: none;
+}
+
+.features .feature-block img {
+  width: 60%;
+  border-radius: 10px;
+  border: lightgrey 1px solid;
+}
+
+.features .feature-block .text {
+  text-align: left;
+  width: 35%;
+}
+
+.features .feature-block .text h3 {
+  margin-bottom: 20px;
+}
+
+/* Benefits */
+.benefits {
+  padding: 70px 7%;
+  text-align: center;
+  background-color: #E0EDF3;
+}
+
+.benefits .content-area {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: space-around;
+}
+
+.benefits .content-area .benefit-block {
+  width: 25%;
+}
+
+.benefits .vertical-grey {
+  height: 120px;
+  width: 2px;
+  background-color: darkgrey;
+  margin-top: 9%;
+}
+
+.benefits .content-area .benefit-block p {
+  margin-top: 20px;
+}
+
+/* Second Signup */
+.signup-two {
+  background-color: #0070BC;
+  padding: 70px 7%;
+}
+
+.signup-two .content-area {
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.signup-two .content-area h3 {
+  text-transform: uppercase;
+}
+
+.signup-two .content-area form {
+  margin-top: 25px;
+}
+
+.signup-two .content-area form input[type='text'] {
+  width: 80%;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.signup-two .content-area form input[type='submit'] {
+  font-size: 28px;
+  padding: 5px 65px;
+  border: none;
+  box-sizing: content-box;
+  font-weight: 900;
+  color: #fff;
+  background-color: #FF8083;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.signup-two .content-area form input[type='submit']:hover {
+  cursor: pointer;
+  background-color: #ff4d51;
+}
+
+/* Footer */
+.footer {
+  background-color: #022648;
+  height: 150px;
+}
