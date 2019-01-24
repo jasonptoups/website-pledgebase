@@ -146,7 +146,109 @@
   .signup-two .content-area {
     max-width: 60%;
   }
+}
+
+@media (max-width: 1000px) {
+  /* General */
+  h1 {
+    font-size: 50px;
+  }
+
+  .pricing .text h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .thirty-six {
+    font-size: 26px;
+  }
+
+  .signup form input[type='submit'], .signup-two .content-area form input[type='submit'] {
+    font-size: 22px;
+  }
+
+  .pricing .text .pricing-button {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  input {
+    font-size: 20px;
+  }
+
+  .features .feature-block .text .features-button {
+    font-size: 18px;
+  }
+
+  p.subheader {
+    font-size: 22px;
+  }
+
+  p.subheader-two {
+    font-size: 20px;
+  }
+
+  .nav a, .nav button {
+    font-size: 12px;
+  }
+
+  /* Hero */
+  .hero .text {
+    width: 80%;
+  }
+
+  /* Signup */
+  .signup form {
+    margin-top: 15px;
+  }
+
+  .signup form input[type='text'] {
+    width: 30%;
+  }
+
+  .signup form input[type='submit'] {
+    padding: 5px 45px;
+  }
+
+  /* Top Line */
+  .topline {
+    padding: 25px 4% 40px 4%;
+  }
+
+  .topline .item {
+    width: 29%;
+    min-height: 420px;
+
+  }
+
+  .topline .item .icon-wrapper {
+    height: 150px;
+  }
+
+  /* The Problem */
+  .problem .text ul {
+    width: 90%;
+  }
+
+  /* Second Signup */
+  .signup-two .content-area form {
+    margin-top: 10px;
+  }
+
 
 }
 
 /* 1000px */
+
+
+/* 800px */

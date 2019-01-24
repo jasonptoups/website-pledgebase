@@ -233,15 +233,15 @@ body {
 /* Top Line */
 .topline {
   padding: 30px 90px 60px 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .topline .item {
-  display: inline-block;
   width: 30%;
   box-sizing: border-box;
-  margin: 0 1.5%;
   padding: 30px 10px;
-  vertical-align: top;
   min-height: 500px;
   text-align: center;
 }
