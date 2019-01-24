@@ -1,0 +1,152 @@
+@media (max-width: 1275px) {
+  /* General */
+  h1 {
+    font-size: 52px;
+  }
+
+  .pricing .text h1 {
+    font-size: 47px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .thirty-six {
+    font-size: 28px;
+  }
+
+  .signup form input[type='submit'], .signup-two .content-area form input[type='submit'] {
+    font-size: 24px;
+  }
+
+  .pricing .text .pricing-button {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  input {
+    font-size: 22px;
+  }
+
+  .features .feature-block .text .features-button {
+    font-size: 22px;
+  }
+
+  p.subheader {
+    font-size: 24px;
+  }
+
+  p.subheader-two {
+    font-size: 20px;
+  }
+
+  .nav a, .nav button {
+    font-size: 14px;
+  }
+
+  /* Nav Bar */
+  .nav {
+    padding: 20px 30px;
+  }
+
+  .nav a {
+    margin: 0 15px;
+  }
+
+  /* Hero */
+  .hero {
+    height: 500px;
+  }
+
+  .hero .text {
+    width: 60%;
+  }
+
+  /* Top Line */
+  .topline {
+    padding: 30px 90px 60px 90px;
+  }
+
+  .topline .item .icon-wrapper {
+    height: 180px;
+  }
+
+  .topline .item .icon {
+    max-width: 100%;
+  }
+
+  /* The Problem */
+  .problem .text ul {
+    width: 75%;
+  }
+
+  /* Features */
+  /* Video */
+  .vid-wrapper {
+    width: 80%;
+  }
+
+  .features {
+    padding: 70px 7%;
+  }
+
+  .features .feature-block:after {
+    width: 24%;
+    left: 38%;
+  }
+
+  .features .feature-block:nth-of-type(even) .text {
+    margin-left: 6%;
+  }
+
+  .features .feature-block:nth-of-type(odd) .text {
+    margin-right: 6%;
+  }
+
+  .features .feature-block img {
+    width: 60%;
+  }
+
+  .features .feature-block .text {
+    width: 30%;
+  }
+
+  /* Benefits */
+  .benefits {
+    padding: 70px 6%;
+  }
+
+  .benefits .content-area .benefit-block {
+    width: 27%;
+  }
+
+  /* Pricing */
+  .pricing {
+    padding: 90px 0;
+  }
+
+  .pricing .text {
+    width: 70%;
+  }
+
+  /* Second Signup */
+  .signup-two {
+    background-color: #0070BC;
+    padding: 70px 6%;
+  }
+
+  .signup-two .content-area {
+    max-width: 60%;
+  }
+
+}
+
+/* 1000px */
