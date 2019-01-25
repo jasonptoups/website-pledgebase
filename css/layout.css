@@ -58,7 +58,7 @@
   }
 
   .nav a {
-    margin: 0 15px;
+    margin: 8px 15px 0 15px;
   }
 
   /* Hero */
@@ -138,10 +138,11 @@
 
   /* Pricing */
   .pricing {
-    padding: 90px 0;
+    padding: 0 15%;
   }
 
   .pricing .text {
+    padding: 100px 0;
     width: 70%;
   }
 
@@ -210,6 +211,11 @@
     font-size: 12px;
   }
 
+  /* Nav */
+  .nav a {
+    margin: 10px 15px 0 15px;
+  }
+  
   /* Hero */
   .hero .text {
     width: 80%;
@@ -338,6 +344,16 @@
     width: 60%;
   }
 
+  /* Pricing */
+  .pricing {
+    padding: 0;
+  }
+
+  .pricing .text {
+    padding: 100px 0;
+    width: 70%;
+  } 
+
   /* Second Signup */
   .signup-two .content-area {
     max-width: 80%;
@@ -449,16 +465,28 @@
 
   /* Pricing */
   .pricing {
-    padding: 40px 30px;
+    padding: 0 30px;
   }
 
   .pricing .text {
     width: 100%;
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 485px) {
+  .nav .right {
+    display: none;
+  }
+
+  .nav {
+    justify-content: center;
   }
 }
 
 @media (max-width: 405px) {
-
+  
 }
 
-/* 600px */
+/* 375px */
+
