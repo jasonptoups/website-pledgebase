@@ -119,6 +119,14 @@
     width: 30%;
   }
 
+  .features .feature-block .text h3 {
+    margin-bottom: 10px;
+  }
+
+  .features .feature-block .text .features-button {
+    margin-top: 10px;
+  }
+
   /* Benefits */
   .benefits {
     padding: 70px 6%;
@@ -228,7 +236,6 @@
   .topline .item {
     width: 29%;
     min-height: 420px;
-
   }
 
   .topline .item .icon-wrapper {
@@ -240,15 +247,218 @@
     width: 90%;
   }
 
+  .problem .text ul li img, .problem .text ul li span {
+    vertical-align: top;
+  }
+
   /* Second Signup */
   .signup-two .content-area form {
     margin-top: 10px;
   }
+}
 
+@media (max-width: 800px) {
+  .thirty-six {
+    font-size: 22px;
+  }
+
+  /* Hero */
+  .hero .text {
+    width: 90%;
+  }
+
+  /* Signup */
+  .signup form {
+    margin-top: 15px;
+  }
+
+  .signup form input[type='text'] {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+
+  .signup form input[type='submit'] {
+    padding: 5px 45px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px
+  }
+
+  /* Top Line */
+  .topline {
+    padding: 25px 10% 40px 10%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .topline .item {
+    width: 80%;
+    min-height: auto;
+    padding: 40px 10px;
+  }
+
+  .topline .item .icon-wrapper {
+    height: 120px;
+  }
+
+  /* The Problem */
+  .problem .text ul {
+    width: 100%;
+  }
+
+  .problem {
+    padding: 80px 60px;
+  }
+
+  /* Features */
+  .features .feature-block:nth-of-type(even) {
+    flex-direction: column;
+  }
+  
+  .features .feature-block:nth-of-type(even) .text {
+    margin: 15px auto;
+  }
+  
+  .features .feature-block:nth-of-type(odd) {
+    flex-direction: column;
+  }
+  
+  .features .feature-block:nth-of-type(odd) .text {
+    margin: 15px auto;
+  }
+  
+  .features .feature-block img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .features .feature-block .text {
+    width: 60%;
+  }
+
+  /* Second Signup */
+  .signup-two .content-area {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  /* General */
+  h1 {
+    font-size: 48px;
+  }
+
+  .pricing .text h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .thirty-six {
+    font-size: 22px;
+  }
+
+  .signup form input[type='submit'], .signup-two .content-area form input[type='submit'] {
+    font-size: 20px;
+  }
+
+  .pricing .text .pricing-button {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  input {
+    font-size: 20px;
+  }
+
+  .features .feature-block .text .features-button {
+    font-size: 18px;
+  }
+
+  p.subheader {
+    font-size: 20px;
+  }
+
+  p.subheader-two {
+    font-size: 18px;
+  }
+
+  .nav a, .nav button {
+    font-size: 12px;
+  }
+
+  /* Signup */
+  .signup {
+    padding: 60px 40px;
+  }
+
+  /* Problem */
+  .problem {
+    padding: 60px 30px;
+  }
+
+  .problem .text ul {
+    padding: 0;
+    margin-top: 15px;
+    width: 90%;
+  }
+
+  /* Features */
+  .features {
+    padding: 40px 5%;
+  }
+
+  .vid-wrapper {
+    width: 100%;
+  }
+
+  .features .feature-block .text {
+    width: 80%;
+  }
+
+  /* Benefits */
+  .benefits .content-area {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .benefits .content-area .benefit-block {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .benefits .content-area .benefit-block p {
+    margin-top: 10px;
+  }
+
+  .benefits .content-area .vertical-grey {
+    display: none;
+  }
+
+  /* Pricing */
+  .pricing {
+    padding: 40px 30px;
+  }
+
+  .pricing .text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 405px) {
 
 }
 
-/* 1000px */
-
-
-/* 800px */
+/* 600px */
